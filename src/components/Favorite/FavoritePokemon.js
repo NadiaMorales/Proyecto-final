@@ -10,13 +10,13 @@ class FavoritePokemon extends Component {
     return(
       
         <Row className="barFavorite">
-          <Col xs={12} md={2}>
+          <Col xs={12} md={4}>
             <FaArrowLeft />
           </Col>
-          <Col xs={12} mdOffset={3} md={5}>
+          <Col xs={12} md={4}>
             <h3>Aquí puedes ver tus Pokemon favoritos.</h3>
           </Col>
-          <Col xs={12} md={2}>
+          <Col xs={12} md={4}>
           <FaStar />
           </Col>
         </Row>
