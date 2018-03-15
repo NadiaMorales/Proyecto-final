@@ -2,8 +2,7 @@
 
 One Paragraph of project description goes here
 
-[!Wireframe](
-<img src="img/wireframe.jpg">);
+<img src="img/wireframe.jpg">
 
 ## Getting Started
 
