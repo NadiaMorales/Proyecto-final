@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Row, Col } from 'react-flexbox-grid';
+import { Grid, Row, Col } from 'react-flexbox-grid';
 import Home from './components/Home';
-import Favorite from './components/Favorite/Favorite';
+import {Favorite, ButtonAdd} from './components/Favorite/Favorite';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 

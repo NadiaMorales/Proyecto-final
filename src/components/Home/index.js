@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Row, Col} from 'react-flexbox-grid';
 import './../style.css';
+import SearchResults from './SearchResults';
+
+
 
 class Search extends Component {
   render() {
