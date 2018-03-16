@@ -11,42 +11,40 @@ class SearchResults extends Component {
 
 }
 
-componentWillMount() {   
+componentWillMount() {
   fetch(`https://api.pokemontcg.io/v1/cards?`)
   
   .then(results => {
-      return results.json();
+    return results.json();
   }).then(data => {
-      console.log(data.cards);
+    console.log(data.cards);
       let pokes = data.cards.map((pic) => {
-          return(
+        return(
           // <Grid>
-          //     <Row>
-                  <div className="pokeCards" key={pic.cards}>
-                      <Col xs={12}>
-                          <img src={pic.imageUrl} />
-                      </Col>
-                      <Col xs={12}>
-                          <button className="btnFav" type="button" >Agregar a favoritos ♥</button>
-                      </Col>   
-                  </div>
-          //     </Row>
+          // <Row>
+          <div className="pokeCards" key={pic.cards}>
+            <Col xs={12}>
+              <img src={pic.imageUrl} />
+            </Col>
+            <Col xs={12}>
+              <button className="btnFav" type="button" >Agregar a favoritos ♥</button>
+            </Col>
+          </div>
+          //</Row>
           // </Grid>
-          )
+        )
       })
-      this.setState({pokes: pokes});
+    this.setState({pokes: pokes});
   })
-
 }
-  
 
   render() {
     return(
       <Row className="searchResults">
         <Col xs={12}>
            <div className="cartas">
-                    {this.state.pokes}
-                </div>
+            {this.state.pokes}
+          </div>
         </Col>
       </Row>
     )
