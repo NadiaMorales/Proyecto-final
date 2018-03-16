@@ -1,25 +1,40 @@
 .App {
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  background-image: url(./img/pokemon.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  background-color: #009688d9;
+  height: auto;
   padding: 20px;
-  color: white;
+  color: #000;
+  font-family: 'Federo', sans-serif;
+  font-size: 1.5em;
 }
 
 .App-title {
-  font-size: 1.5em;
+  margin: 0;
+
 }
 
 .App-intro {
   font-size: large;
+}
+
+.col-md-4,
+.col-md-8 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.searchPokemon {
+  height: 8em;
+  background-color: #dadadae3;
 }
 
 @keyframes App-logo-spin {
