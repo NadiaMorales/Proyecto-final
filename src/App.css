@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
-  background-image: url(./img/pokemon.jpg);
+  /* background-image: url(./img/pokemon.jpg); */
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
