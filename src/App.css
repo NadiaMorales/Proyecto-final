@@ -1,12 +1,13 @@
 .App {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
-  /* background-image: url(./img/pokemon.jpg); */
   height: 100vh;
+}
+body {
+  background-image: url(./img/pokemon.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .App-header {
   background-color: #009688d9;
