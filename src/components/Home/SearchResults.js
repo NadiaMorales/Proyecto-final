@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import FaStar from 'react-icons/lib/fa/star';
 import { Grid, Row, Col } from 'react-flexbox-grid';
+import {Favorite, ButtonAdd} from './../Favorite/Favorite';
+
 
 class SearchResults extends Component {
   constructor() {
@@ -27,7 +30,7 @@ componentWillMount() {
               <img src={pic.imageUrl} />
             </Col>
             <Col xs={12}>
-              <button className="btnFav" type="button" >Agregar a favoritos ♥</button>
+              <ButtonAdd />
             </Col>
           </div>
           //</Row>

@@ -9,7 +9,11 @@
   font-size: 14px;
   font-family: 'Federo', sans-serif;
 }
-
+.addFavorite {
+  margin-right: 0;
+  margin-left: 0;
+  background-color: lavender;
+}
 .search {
   border: none;
   border-radius: 6px;
@@ -30,6 +34,9 @@
   font-size: 2em;
   color: #D50000;
 }
+.starFav {
+  color: #D50000;
+}
 
 .pokemonFav {
   background-color: seashell;
@@ -39,8 +46,9 @@
   margin-top: 1.5em;
 }
 .searchResults {
-  /* height: 100vh; */
+  height: 72.5vh;
   background-color: #dadadae3;
+  overflow: auto;
 }
 .items {
   font-family: 'Quicksand', sans-serif;
@@ -49,7 +57,6 @@
 .favorite {
   font-family: 'Quicksand', sans-serif;
 }
-
 .btnFav {
   border-radius: 4px;
   border: 2px solid #000;
@@ -65,7 +72,20 @@
   column-count: 2;
 }
 
+@media (max-width: 750px) {
+  .cartas {
+    column-count: 1;
+  }
+  
+}
+
 .pokeCards{
   margin-bottom: 29px;
   padding-top: 25px;
+}
+
+.addFavorite {
+  margin-right: 0;
+  margin-left: 0;
+  background-color: lavender;
 }
