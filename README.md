@@ -5,7 +5,6 @@ Creado con Api pokemon TCG y React.
 ### Wireframe del proyecto
 
 <img src="img/wireframe.jpg">
-<img src="img/mockap.odt">
 
 ### Uso de React
 
@@ -18,6 +17,8 @@ Se utilizaron las siguientes herramientas:
 * [Material UI](http://www.material-ui.com/#/) - React component que implementa el Framework de Google Material Design.
 * [React flexbox grid](https://roylee0704.github.io/react-flexbox-grid/) - Uso de grillas para vista web y repsonsive.
 * [React Icons](https://gorangajic.github.io/react-icons/) - Iconos para react.
+* [React](https://reactjs.org/tutorial/tutorial.html) -Este proyecto esta realizado en react js contiene 5 componentes.
+* [jquery] (https://jquery.com/) - Uso para consultar Api
  
 
 ## Autoras
