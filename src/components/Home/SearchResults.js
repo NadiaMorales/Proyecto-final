@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import FaStar from 'react-icons/lib/fa/star';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import {Favorite, ButtonAdd} from './../Favorite/Favorite';
+import Modal from './Modal/openModal';
+
 
 
 class SearchResults extends Component {
@@ -30,7 +32,11 @@ componentWillMount() {
               <img src={pic.imageUrl} />
             </Col>
             <Col xs={12}>
-              <ButtonAdd />
+            <Modal show={this.state.isOpen}
+                onClose={this.toggleModal}>
+              <Button onClick={this.props.onClose}>
+              onClose
+              <Button/>
             </Col>
           </div>
           //</Row>

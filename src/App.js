@@ -3,6 +3,7 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import Home from './components/Home';
 import {Favorite, ButtonAdd} from './components/Favorite/Favorite';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import Modal from './Modal/openModal';
 
 
 import './App.css';
