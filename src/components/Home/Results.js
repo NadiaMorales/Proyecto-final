@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import $ from 'jquery'
-import { Row, Col } from 'react-flexbox-grid';
-import './../style.css'
+import $ from 'jquery';
+import './../style.css';
 
 class Results extends Component {
     constructor() {
@@ -35,7 +34,7 @@ class Results extends Component {
   })
 
     function addCardsPoke(news) {
-      const poke = news.cards.map((pic) => {
+      news.cards.map((pic) => {
 
       let $list2 = $(
         `<div class="pokeCards" >
@@ -43,22 +42,18 @@ class Results extends Component {
                 <img src=${pic.imageUrl} />
             </div>
             <div class="col-xs-12">
-                <button class="btnFav" type="button">Agregar a favoritos ♥</button>
+                <button class="btnFav" type="button">Agregar a favoritos</button>
             </div>   
         </div>`
       )
       return ($('.resultcartas').append($list2))
-      console.log(news.cards);
     })
     }
-    
     
     function error() {
       console.log('Se ha presentado un error')
     } 
   }
-
- 
 
   render() {
     return(

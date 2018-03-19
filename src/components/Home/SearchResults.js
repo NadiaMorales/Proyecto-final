@@ -26,7 +26,7 @@ componentWillMount() {
                             <img src=${pic.imageUrl} />
                         </div>
                         <div class="col-xs-12">
-                            <button class="btnFav" type="button" >Agregar a favoritos ♥</button>
+                            <button class="btnFav" type="button" >Agregar a favoritos</button>
                         </div>   
                     </div>`
             )
