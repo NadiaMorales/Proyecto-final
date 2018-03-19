@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import Search from './Home/index';
 import SearchResults from './Home/SearchResults';
-import { Row, Col } from 'react-flexbox-grid';
 import './style.css';
 import './../img/pokemon.jpg';
 
@@ -20,7 +18,4 @@ class Home extends Component {
     )
   }
 }
-
-
-
 export default Home;

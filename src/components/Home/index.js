@@ -1,21 +1,17 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import { Row, Col} from 'react-flexbox-grid';
 import './../style.css';
-import SearchResults from './SearchResults';
-
-
 
 class Search extends Component {
   render() {
     return(
       <Row className="searchPokemon">
-        <Col className="findPoke" xs={7} md={7}>
+        <Col className="findPoke" xs={12} md={7}>
+        <form id="search-form">
           <label htmlFor="Text">Ingresa nombre pokemon:</label>
-          <input className="search" type="text" placeholder="Encuentra tu carta Pokémon"/>
-        </Col>
-        <Col xs={3} md={3}>
-          <input className="btn" type="submit" value="BUSCAR"/>
+            <input id="pokeInput" className="form search" type="text" name="search" placeholder="Encuentra tu carta Pokémon" required=""/>
+            <input type="submit" className="btn btn-success" id="submit-btn pokeSearch" value="Buscar"/>
+          </form>
         </Col>
       </Row>
     )
