@@ -4,7 +4,6 @@
   padding: 12px 14px;
   color: #fff;
   background-color: #ff002fd1;
-  margin-top: 3.7em;
   font-weight: bolder;
   font-size: 14px;
   font-family: 'Federo', sans-serif;
@@ -40,13 +39,13 @@
 
 .pokemonFav {
   background-color: seashell;
-  height: 100vh;
+  height: 88.6vh;
 }
 .findPoke {
   margin-top: 1.5em;
 }
 .searchResults {
-  height: 72.5vh;
+  height: 63.5vh;
   background-color: #dadadae3;
   overflow: auto;
 }
@@ -72,12 +71,21 @@
   column-count: 2;
 }
 
+.resultcartas {
+  column-count: 2;
+}
+
+
 @media (max-width: 750px) {
   .cartas {
     column-count: 1;
   }
+  .resultcartas {
+    column-count: 1;
+  }
   
 }
+
 
 .pokeCards{
   margin-bottom: 29px;

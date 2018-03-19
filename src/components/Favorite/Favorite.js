@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import FaStar from 'react-icons/lib/fa/star';
-import { Grid, Row, Col } from 'react-flexbox-grid';
+import { Row, Col } from 'react-flexbox-grid';
 import FavoritePokemon from './FavoritePokemon';
 import './../style.css';
 
