@@ -18,7 +18,7 @@ Se utilizaron las siguientes herramientas:
 * [React flexbox grid](https://roylee0704.github.io/react-flexbox-grid/) - Uso de grillas para vista web y repsonsive.
 * [React Icons](https://gorangajic.github.io/react-icons/) - Iconos para react.
 * [React](https://reactjs.org/tutorial/tutorial.html) -Este proyecto esta realizado en react js contiene 5 componentes.
-* [jquery] (https://jquery.com/) - Uso para consultar Api
+* [jquery](https://jquery.com/) - Uso para consultar Api
  
 
 ## Autoras
