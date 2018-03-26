@@ -1,6 +1,5 @@
 ## Pokemon React
 
-Creado con Api pokemon TCG y React.
 Es una single page application creada con la Api de pokemon TCG y Reactjs en la que puedes buscar informacion de las tarjetas de Pokémon TCG.
 
 ### Wireframe del proyecto
