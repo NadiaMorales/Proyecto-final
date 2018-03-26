@@ -1,6 +1,7 @@
 ## Pokemon React
 
 Creado con Api pokemon TCG y React.
+Es una single page application creada con la Api de pokemon TCG y Reactjs en la que puedes buscar informacion de las tarjetas de Pokémon TCG.
 
 ### Wireframe del proyecto
 
@@ -8,7 +9,7 @@ Creado con Api pokemon TCG y React.
 
 ### Uso de React
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Usamos React para crear los diferentes componentes de la pagina, como el buscador y las cartas del inicio
 
 ## Ambiente de desarrollo
 
@@ -19,6 +20,7 @@ Se utilizaron las siguientes herramientas:
 * [React Icons](https://gorangajic.github.io/react-icons/) - Iconos para react.
 * [React](https://reactjs.org/tutorial/tutorial.html) -Este proyecto esta realizado en react js contiene 5 componentes.
 * [jquery](https://jquery.com/) - Uso para consultar Api
+* [Pokemon TCG API](https://pokemontcg.io/) - api usada
  
 
 ## Autoras
